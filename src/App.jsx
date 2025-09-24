@@ -5,6 +5,7 @@ import Body from '/src/Components/Body';
 import Payacceptedon from '/src/Components/Payacceptedon';
 import Footer from '/src/Components/Footer';
 import './App.css';
+import Artboard from './Components/Artboard';
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
       <Navigation1 />
       <Navigation2 />
        <Scroll /> 
+       <Artboard />
       <Body />
       <Payacceptedon />
       <Footer /> 
