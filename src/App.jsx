@@ -7,23 +7,25 @@ import Footer from '/src/Components/Footer.jsx';
 import './App.css';
 import Artboard from './Components/Artboard.jsx';
 import Artboard2 from './Components/Artboard2.jsx';
-function App() {
- 
-  return (
-    
-    <>
+import {useState} from 'react';
 
-      <Navigation1 />
+
+function App() {
+   let [cart,setCart]=useState(0);
+  const addToCart=()=>{
+            setCart((cart)=>cart+1);
+       }
+  return (
+    <>
+      <Navigation1 cartCount={cart} />
       <Navigation2 />
        <Scroll /> 
        <Artboard />
-      <Body />
+      <Body setCart={setCart} addToCart={addToCart}/>
       <Artboard2 />
       <Payacceptedon />
       <Footer /> 
-    
     </>
   );
 }
-
 export default App;

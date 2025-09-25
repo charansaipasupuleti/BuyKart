@@ -16,7 +16,7 @@ function Artboard() {
   };
 
   return (
-    <div className="relative h-80 flex flex-row overflow-hidden">
+    <div className="relative top-31 h-80 flex flex-row overflow-hidden">
       <img className="absolute z-0 w-full" src={images[currentIndex]} alt="Artboard" />
       <button className="absolute z-10 ml-2 mt-35 h-10 text-black hover:text-2xl" onClick={onLeftClick}>
         <i className="fa-solid fa-arrow-left"></i>

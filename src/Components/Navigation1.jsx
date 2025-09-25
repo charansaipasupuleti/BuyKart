@@ -1,8 +1,8 @@
 
-function Navigation1(){
+function Navigation1({cartCount}){
     return(
         <>
-        <div className="flex flex-row h-15 w-full bg-[#364985] text-white">
+        <div className="flex flex-row h-15 w-full bg-[#364985]  text-white fixed top-0 z-40">
             <div className="mx-auto content-center font-bold text-xl">BuyKart</div>
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><a href="index.html">Home <i class="fa-solid fa-house"></i></a></div>
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><i class="fa-solid fa-location-dot" id="loc"></i> Delivery</div>
@@ -26,7 +26,7 @@ function Navigation1(){
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><a href="accounts and list.html"><div className="text-xs">Accounts</div><div className="font-semibold text-sm">& Lists</div></a></div>
             <div className=" flex flex-col mx-auto justify-center hover:bg-white hover:text-[#364985]"> <div className="text-xs">Orders</div><div className="font-semibold text-sm">& Returns</div></div>
             <div className="flex flex-col mx-auto justify-center hover:bg-white hover:text-[#364985]"><div className="text-xs">Warranty</div><div className="font-semibold text-sm">& Support</div> </div>
-            <div className="mx-auto content-center hover:bg-white hover:text-[#364985]">Cart <i class="fa-solid fa-cart-plus"></i></div>
+            <div className="mx-auto content-center hover:bg-white hover:text-[#364985]">Cart: {cartCount} <i class="fa-solid fa-cart-plus"></i></div>
            </div>
         </>
     );
