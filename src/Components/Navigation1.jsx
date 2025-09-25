@@ -2,7 +2,7 @@
 function Navigation1(){
     return(
         <>
-        <div className="flex flex-row h-15 bg-[#364985]  text-white">
+        <div className="flex flex-row h-15 w-full bg-[#364985] text-white">
             <div className="mx-auto content-center font-bold text-xl">BuyKart</div>
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><a href="index.html">Home <i class="fa-solid fa-house"></i></a></div>
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><i class="fa-solid fa-location-dot" id="loc"></i> Delivery</div>

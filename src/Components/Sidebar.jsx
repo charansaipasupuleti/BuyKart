@@ -6,12 +6,12 @@ function Sidebar(){
         <>
         <div className="flex flex-col ml-0 w-150 bg-white">
             <ul className="flex flex-col gap-8 m-2 font-medium">
-                <li className="flex flex-row mb-2 justify-between"><p>Sort</p><i class="fa-regular fa-plus"></i></li>
-                <li className="flex flex-row mb-2 justify-between">Category <i class="fa-regular fa-plus"></i></li>
-                <li className="flex flex-row mb-2 justify-between">Colors <i class="fa-regular fa-plus"></i></li>
-                <li className="flex flex-row mb-2 justify-between">Price <i class="fa-regular fa-plus"></i></li>
-                <li className="flex flex-row mb-2 justify-between">Features <i class="fa-regular fa-plus"></i></li>
-                <li className="flex flex-row mb-2 justify-between">Playback Time <i class="fa-regular fa-plus"></i></li>
+            <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Sort</p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Category</p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Colors </p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Price</p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Features </p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Playback Time</p><i class="fa-regular fa-plus"></i></a></li>
             </ul>
         </div>
         </>

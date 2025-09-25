@@ -1,17 +1,14 @@
-
-
 function Scroll(){
     return(
         <>
-        <div className="realtive overflow-hidden h-8 w-screen bg-black">
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
-            <div className="absolute">Scroll</div>
+        <div className="realtive  h-8 w-full bg-black scroll-container ">
+            <div className="absolute w-auto text-white scroll-content"id="i1"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+            <div className="absolute w-auto text-white scroll-content"id="i2"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+            <div className="absolute  w-auto  text-white scroll-content"id="i3"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+            <div className="absolute  w-auto  text-white scroll-content"id="i4"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+            <div className="absolute  w-auto  text-white scroll-content"id="i5"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+            <div className="absolute w-auto text-white scroll-content"id="i6"><img className="h-8 w-auto"src="src/assets/goboult logo.webp"></img></div>
+
         </div>
         </>
     );
