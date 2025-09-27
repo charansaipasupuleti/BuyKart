@@ -12,7 +12,13 @@ function Sidebar(){
                <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Price</p><i class="fa-regular fa-plus"></i></a></li>
                <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Features </p><i class="fa-regular fa-plus"></i></a></li>
                <li className="mb-2"><a className=" flex flex-row justify-between"href=""><p>Playback Time</p><i class="fa-regular fa-plus"></i></a></li>
+               <li className="mb-2">   
+                        <video className="w-auto h-auto rounded-lg shadow-md" controls muted autoplay loop>
+                        <source src="src/assets/videoclip1.mp4" type="video/mp4"/>
+                        </video>
+               </li>
             </ul>
+         
         </div>
         </>
     );

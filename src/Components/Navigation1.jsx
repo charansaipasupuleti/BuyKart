@@ -23,7 +23,7 @@ function Navigation1({cartCount}){
                             <input type="text" className="h-8 w-100 border-none bg-white text-black" placeholder="Search BuyKart.in" />     
                             <div className="h-8 w-10 bg-white text-black border-white border-1" ><i  class="fa-solid fa-magnifying-glass"></i></div>
             </div>
-            <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><a href="accounts and list.html"><div className="text-xs">Accounts</div><div className="font-semibold text-sm">& Lists</div></a></div>
+            <div className="mx-auto content-center hover:bg-white hover:text-[#364985]"><a href=""><div className="text-xs">Accounts</div><div className="font-semibold text-sm">& Lists</div></a></div>
             <div className=" flex flex-col mx-auto justify-center hover:bg-white hover:text-[#364985]"> <div className="text-xs">Orders</div><div className="font-semibold text-sm">& Returns</div></div>
             <div className="flex flex-col mx-auto justify-center hover:bg-white hover:text-[#364985]"><div className="text-xs">Warranty</div><div className="font-semibold text-sm">& Support</div> </div>
             <div className="mx-auto content-center hover:bg-white hover:text-[#364985]">Cart: {cartCount} <i class="fa-solid fa-cart-plus"></i></div>
